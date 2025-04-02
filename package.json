@@ -4,19 +4,15 @@
   "description": "Discord bot for displaying X.fun leaderboard",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node bot.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "dependencies": {
-    "discord.js": "^14.0.0",
-    "dotenv": "^16.0.0",
-    "node-fetch": "^2.6.7",
-    "node-schedule": "^2.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "discord.js": "14.11.0",
+    "dotenv": "16.0.3",
+    "node-fetch": "2.6.9",
+    "node-schedule": "2.1.1"
   }
 }
